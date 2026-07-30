@@ -509,3 +509,175 @@
     }
 
     }
+
+
+
+
+
+
+
+    class Day2_NewValues{
+    public static void main (String args []){
+
+        // 1. CELSIUS TO FAHRENHEIT
+        System.out.println("----CELSIUS TO FAHRENHEIT----");
+        double celsius = 35.5;  // Vera value
+        double fahrenheit = (celsius * 9.0 / 5.0) + 32; // 9.0/5.0 podanum, illana 1 varum
+        System.out.println("Celsius : " + celsius + " C");
+        System.out.println("Fahrenheit : " + fahrenheit + " F");
+        System.out.println(" ");
+
+        // 2. KILOMETER TO MILES
+        System.out.println("---KILOMETER TO MILES---");
+        double kilometer = 100.0; // Vera value
+        double miles = kilometer * 0.621;
+        System.out.println("Distance in Kilometers : " + kilometer + " Km");
+        System.out.println("Distance in Miles : " + miles + " Miles");
+        System.out.println(" ");
+
+        // 3. MILES TO KILOMETER
+        System.out.println("---MILES TO KILOMETER---");
+        double Miles = 50.0; // Vera value
+        double kiloMeter = Miles * 1.609;
+        System.out.println("Distance in Miles : " + Miles + " Miles");
+        System.out.println("Distance in Kilometers : " + kiloMeter + " Km");
+        System.out.println(" ");
+
+        // 4. SPEED, DISTANCE, TIME CALCULATOR
+        System.out.println("1.TIME CALCULATOR");
+        System.out.println("2.DISTANCE CALCULATOR"); 
+        System.out.println("3.SPEED CALCULATOR");
+        String ch = "2"; // Vera choice try pannu 1,2,3
+        System.out.println("Choice : " + ch);
+        
+        switch(ch){
+            case "1": // Time = Distance / Speed
+                double Speed = 25;
+                double Distance = 100;
+                System.out.println("Speed : " + Speed);
+                System.out.println("Distance : " + Distance);
+                double Time = Distance / Speed;
+                System.out.println("Time : " + Time + " s");
+                break;
+
+            case "2": // Distance = Speed * Time
+                double speed = 15;
+                double time = 4;
+                System.out.println("Speed : " + speed);
+                System.out.println("Time : " + time);
+                double distance = speed * time;
+                System.out.println("Distance : " + distance + " m");
+                break;
+
+            case "3": // Speed = Distance / Time
+                double _Distance = 200;
+                double _Time = 10;
+                System.out.println("Distance : " + _Distance);
+                System.out.println("Time : " + _Time);
+                double _Speed = _Distance / _Time;
+                System.out.println("Speed : " + _Speed + " m/s");
+                break;
+        }
+        System.out.println(" ");
+
+        // 5. SALARY CALCULATOR
+        System.out.println("---SALARY CALCULATOR---");
+        int year = 2024; // Leap year
+        double annual_income = 1200000; // Vera value
+        double monthly_income = annual_income / 12;
+        double daily_income, hourly_income;
+        
+        if((year%4==0 && year%100!=0) || year%400==0){ // Leap year check
+            daily_income = annual_income / 366;
+            hourly_income = annual_income / (366*24);
+        }
+        else{
+            daily_income = annual_income / 365;
+            hourly_income = annual_income / (365*24);
+        }
+        System.out.println("Annual Income : " + annual_income);
+        System.out.println("Monthly Income : " + monthly_income);
+        System.out.println("Daily Income : " + daily_income);
+        System.out.println("Hourly Income : " + hourly_income);
+        System.out.println(" ");
+
+        // 6. SIMPLE INTEREST - Formula la /100 add pannanum
+        System.out.println("---SIMPLE INTEREST---");
+        int P = 50000; // Principle
+        double R = 8.5; // Rate
+        int T = 3; // Time in years
+        
+        System.out.println("Principle : " + P);
+        System.out.println("Rate : " + R + "%");
+        System.out.println("Time : " + T + " years");
+        
+        double Simple_Interest = (P * R * T) / 100.0; // /100 must
+        System.out.println("Simple Interest : " + Simple_Interest);
+        System.out.println(" ");
+
+        // 7. AREA CALCULATOR
+        System.out.println("---AREA---");
+        System.out.println("1.Square  2.Rectangle 3.Circle  4.Triangle");
+        String Ch = "4"; // Vera choice
+        System.out.println("Choice Entered : " + Ch);
+        
+        switch(Ch){
+            case "1":
+                int side = 15;
+                double square_area = side * side;
+                System.out.println("Area of Square : " + square_area);
+                break;
+            case "2":
+                int length = 20, breadth = 10;
+                double rectangle_area = length * breadth;
+                System.out.println("Area of Rectangle : " + rectangle_area);
+                break;
+            case "3":
+                double radius = 7.5;
+                double circle_area = 3.14 * radius * radius;
+                System.out.println("Area of Circle : " + circle_area);
+                break;
+            case "4":
+                int height = 16, base = 10;
+                double triangle_area = 0.5 * base * height;
+                System.out.println("Area of Triangle : " + triangle_area);
+                break;
+        }
+        System.out.println(" ");
+
+        // 8. VOWEL CHECK
+        System.out.println("---VOWELS CHECK---");
+        char txt = 'E'; // Capital vowel
+        System.out.println("Letter : " + txt);
+        if(txt=='a'||txt=='e'||txt=='i'||txt=='o'||txt=='u'){
+            System.out.println("Vowel - Small letter");
+        }
+        else if(txt=='A'||txt=='E'||txt=='I'||txt=='O'||txt=='U'){
+            System.out.println("Vowel - Capital letter");
+        }
+        else{
+            System.out.println("Consonant");
+        }
+        System.out.println(" ");
+
+        // 9. GRADING SYSTEM
+        System.out.println("---GRADING SYSTEM---");
+        int mark = 76; // Vera mark
+        System.out.println("Marks secured : " + mark);
+        if(mark>=90) System.out.println("Grade A");
+        else if (mark>=80) System.out.println("Grade B");
+        else if (mark>=70) System.out.println("Grade C");
+        else if (mark>=50) System.out.println("Grade D");
+        else System.out.println("Fail");
+        System.out.println(" ");
+
+        // 10. ODD OR EVEN - Ternary operator
+        System.out.println("---EVEN OR ODD---");
+        int num = 43; // Vera number
+        System.out.println("Number : " + num);
+        String result = (num % 2 == 0) ? "Even Number" : "Odd Number";
+        System.out.println(result); 
+        System.out.println(" ");
+
+    }
+}
