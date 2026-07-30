@@ -1,11 +1,11 @@
-class task2{
-    public static void main (String args []){
+ class Day2{
+    public static void main (String[] args ){
         //celcius to fahrenheit
         System.out.println(" ");
         System.out.println("----CELSIUS TO FAHRENHEIT----");
-        double celcius = 20.87;
-        double fahrenheit = (celcius*(9/5))+32;
-        System.out.println("Celcius : "+celcius+" C");
+        double celsius = 20.87;
+        double fahrenheit = (celsius*(9.0/5))+32;
+        System.out.println("Celsius : "+celsius+" C");
         System.out.println("Fahrenheit : "+fahrenheit+" F");
         System.out.println(" ");
 
