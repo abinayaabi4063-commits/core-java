@@ -1,683 +1,221 @@
- class Day2{
-    public static void main (String[] args ){
-        //celcius to fahrenheit
-        System.out.println(" ");
-        System.out.println("----CELSIUS TO FAHRENHEIT----");
-        double celsius = 20.87;
-        double fahrenheit = (celsius*(9.0/5))+32;
-        System.out.println("Celsius : "+celsius+" C");
-        System.out.println("Fahrenheit : "+fahrenheit+" F");
-        System.out.println(" ");
+ //class Day1{
+   // public static void main (String args []){
 
-        System.out.println("---KILOMETER TO MILES---");
-        double kilometer=43.89;
-        double miles=kilometer*0.621;
-        System.out.println("Distance in Kilometers : "+kilometer+" Km");
-        System.out.println("Distance in Miles : "+miles+" Miles");
-        System.out.println(" ");
+   //1-------------->college admission eligibility: ( Nested if...else)
 
-        System.out.println("---MILES TO KILOMETER---");
-        double Miles=30.28;
-        double kiloMeter=Miles*1.609;
-        System.out.println("Distance in Miles : "+Miles+" Miles");
-        System.out.println("Distance in Kilometers : "+kiloMeter+" Km");
-        System.out.println(" ");
-
-        //speed,distance,time calculator
-        System.out.println("1.TIME CALCULATOR");
-        System.out.println("2.DISTANCE CALCULATOR");
-        System.out.println("3.SPEED CALCULATOR");
-        System.out.println(" ");
-        String ch = "1";
-        System.out.println("Choice : "+ch);
-        switch(ch){
-            case "1":
-                double Speed = 10;
-                double Distance = 20;
-                System.out.println("Speed : "+Speed);
-                System.out.println("Distance : "+Distance);
-                double Time = Distance/Speed;
-                System.out.println("Time : "+Time +" s");
-                System.out.println(" ");
-                break;
-
-            case "2":
-                double speed=10;
-                double time = 2;
-                System.out.println("Speed : "+speed);
-                System.out.println("Time : "+time);
-                double distance = speed*time;
-                System.out.println("Distance in meters : "+distance+" m");
-                System.out.println(" ");
-                break;
-
-            case "3":
-                double _Distance = 20;
-                double _Time = 2;
-                System.out.println("Distance : "+_Distance);
-                System.out.println("Time : "+_Time);
-                double _Speed = _Distance/_Time;
-                System.out.println("Speed : "+_Speed+" m/s");
-                System.out.println(" ");
-                break;
-
-
-            default:
-                System.out.println("Please Enter from the given options (1/2/3)");
-                System.out.println(" ");
-                break;
-
-        }
-
-
-        //Salary Calculator
-        System.out.println("---SALARY CALCULATOR---");
-        int year = 2030;
-        double annual_income=1000000;
-        double monthly_income=annual_income/12;
-        double daily_income,hourly_income;
-        if((year%4==0 && year%100!=0)||year%400==0){
-            daily_income=annual_income/366;
-            hourly_income=annual_income/(366*24);
-        }
-        else{
-            daily_income=annual_income/365;
-            hourly_income=annual_income/(365*24);
-
-        }
-        System.out.println("Annual Income : "+annual_income);
-        System.out.println("Monthly Income : "+monthly_income);
-        System.out.println("Daily Income : "+ daily_income);
-        System.out.println("Hourly Income : "+ hourly_income);
-        System.out.println(" ");
-
-        //simple intrest
-        System.out.println("---SIMPLE INTEREST---");
-        int P=100000;
-        double R=7.5;
-        int T=12;
+       // int age = 18;         
+       // int marks = 60;      
         
-        System.out.println("Principle : "+P);
-        System.out.println("Rate : "+R);
-        System.out.println("Time : "+T);
-        System.out.println(" ");
+       // System.out.println("college admission eligibility");
+       // System.out.println("Age : " + age);
+       // System.out.println("Marks : " + marks);
+       // System.out.println(" ");
 
-        double Simple_Interest=P*R*T;
-        System.out.println("Simple Interest : "+Simple_Interest);
-        System.out.println(" ");
+       // if(age >= 18){ 
+       //     System.out.println("Age Condition : Pass");
+            
+        //    if(marks >= 60){ 
+        //        System.out.println("Marks Condition : Pass");
+        //        System.out.println("Result : Eligible");
+        //    }
+        //    else{ 
+        //        System.out.println("Marks Condition : Fail");
+        //        System.out.println("Result : Not Eligible");
+        //    }
+        //}
+       // else{ 
+       //     System.out.println("Age Condition : Fail");
+//System.out.println("Result : Not Eligible");
+      //  }
+   // }
+//}
 
-        //Area
-        System.out.println("---AREA---");
-        System.out.println(" ");
-        System.out.println("1.Square");
-        System.out.println("2.Rectangle");
-        System.out.println("3.Circle");
-        System.out.println("4.Triangle");
-        System.out.println(" ");
-        String Ch="3";
-        System.out.println("Choice Entered : "+Ch);
-        switch(Ch){
+        //2 --------------->sdutent grade: ( if statement )
 
-            case "1":
-                int s = 12;
-                double square_area=s*s;
-                System.out.println("Area of Square : "+square_area);
-                System.out.println(" ");
-                break;
+       // int marks = 92; 
+       // System.out.println("sdutent grade system");
+       // System.out.println("Marks  : " + marks);
+       // System.out.println(" ");
 
-            case "2":
-                int l=12,b=3;
-                double rectangle_area=l*b;
-                System.out.println("Area of Rectangle : "+rectangle_area);
-                System.out.println(" ");
-                break;
+       // if(marks >= 90 && marks <= 100){ 
+          //  System.out.println("Grade : A");
+       // }
 
-            case "3":
-                double r = 12.67;
-                double circle_area=3.14*r*r;
-                System.out.println("Area of Circle : "+circle_area);
-                System.out.println(" ");
-                break;
+       // if(marks >= 80 && marks <= 89){ 
+           // System.out.println("Grade : B");
+       // }
 
-            case "4":
-                int height=12,base=12;
-                double triangle_area =0.5*base*height;
-                System.out.println("Area of Triangle : "+triangle_area);
-                System.out.println(" ");
-                break;
+       // if(marks >= 70 && marks <= 79){ 
+           // System.out.println("Grade : C");
+       // }
 
-            default:
-                System.out.println("Please Enter Valid Options (1/2/3/4)");
-                System.out.println(" ");
-                break;
-        }
+        //if(marks >= 50 && marks <= 69){ 
+           // System.out.println("Grade : D");
+       // }
 
-    //VowelsChecking
-    System.out.println("---VOWELS CHECK---");
-    char txt='a';
-    System.out.println("Letter : "+txt);
-    if(txt=='a'||txt=='e'||txt=='i'||txt=='o'||txt=='u'){
-        System.out.println("Vowel - Small letter");
-        System.out.println(" ");
-    }
-    else if(txt=='A'||txt=='E'||txt=='I'||txt=='O'||txt=='U'){
-        System.out.println("Vowel - Capital letter");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Consonants");
-        System.out.println(" ");
-    }
+       // if(marks < 50 && marks >= 0){ 
+           // System.out.println("Result : Fail");
+       // }
+
+        //if(marks > 100 || marks < 0){ 
+           // System.out.println("Invalid Marks. Please enter 0 to 100");
+       // }
+        
+   // }
+//}
+
+        // 3------------>positive or negative number (if statement):
+
+       // int num = -7; 
+        
+       // System.out.println("check positive or negative");
+       // System.out.println("Number : " + num);
+       // System.out.println(" ");
+
+       // if(num > 0){ 
+          //  System.out.println(num + " is Positive Number");
+       // }
+
+       // if(num < 0){ 
+           // System.out.println(num + " is Negative Number");
+        //}
+
+       // if(num == 0){ 
+           // System.out.println("The Number is Zero");
+        //}
+        
+    //}
+//}
+// 4--------------> salary catogory-low,medium,high:(if else if):
+       // System.out.println(" salary catogery");
+       // double salary = 45000;
+       // System.out.println("Salary : ₹" + salary);
+       // if(salary >= 70000)
+           // System.out.println("Category : HIGH");
+       // else if(salary >= 30000)
+           // System.out.println("Category : MEDIUM");
+       // else
+           // System.out.println("Category : LOW");
+       // System.out.println(" ");
+   // }
+//}
+
+        //5-----------------> annual income(if else if ladder)
+       // double income = 95000; 
+        
+       // System.out.println("income tax slab");
+       // System.out.println("Annual Income : ₹" + income);
+       // System.out.println(" ");
+
+       // if(income <= 4000){ 
+           // System.out.println("Tax Category : No Tax");
+           // System.out.println("Tax Amount : ₹0");
+       // }
+       // else if(income <= 8000){ 
+           // double tax = income * 0.05; 
+            //System.out.println("Tax Category : 5% Tax");
+           // System.out.println("Tax Amount : ₹" + tax);
+       // }
+       // else if(income <= 12000){ 
+           // double tax = income * 0.10; 
+           // System.out.println("Tax Category : 10% Tax");
+           // System.out.println("Tax Amount : ₹" + tax);
+       // }
+       // else if(income <= 16000){ 
+            //double tax = income * 0.20; // 20%
+           // System.out.println("Tax Category : 20% Tax");
+           // System.out.println("Tax Amount : ₹" + tax);
+       // }
+//else{ 
+         //   double tax = income * 0.30; // 30%
+          //  System.out.println("Tax Category : 30% Tax");
+          //  System.out.println("Tax Amount : ₹" + tax);
+       // }
+        
+  //  }
+//}
+        // 6------------------>Celsius to farenheat:
+
+
+       // double celsius = 37.0; 
+        //( Formula ):
+        //double fahrenheit = (celsius * 9/5) + 32;
+        
+       // System.out.println(" celsius to farenheat ");
+       // System.out.println("Celsius : " + celsius + " °C");
+       // System.out.println("Fahrenheit : " + fahrenheit + " °F");
+        
+   // }
+//}
+
+       // 7-------------------> Kilometer to miles:
+
+       // double kilometers = 10.0; 
+       // (Formula): 
+       // double miles = kilometers * 0.621371;
+        
+       // System.out.println("--- KILOMETER TO MILES ---");
+       // System.out.println("Kilometers : " + kilometers + " km");
+       // System.out.println("Miles : " + miles + " miles");
+        
+    //}
+//}
     
-
-    //Grading System
-    System.out.println("---GRADING SYSTEM---");
-    int mark=90;
-    System.out.println("Marks secured : "+mark);
-    if(mark>=90){
-        System.out.println("Grade A");
-        System.out.println(" ");
-    }
-    else if (mark>=80){
-        System.out.println("Grade B");
-        System.out.println(" ");
-    }
-    else if (mark>=70){
-        System.out.println("Grade C");
-        System.out.println(" ");
-    }
-    else if (mark>=50){
-        System.out.println("Grade D");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println(" Fail ");
-        System.out.println(" ");
-    }
-
-    //if statements
-    //Positive,Negative,Zero
-    System.out.println("---CHECK +VE,-VE OR 0---");
-    int n=12;
-    System.out.println("Number : "+n);
-    if(n>0){
-        System.out.println(n+" - Positive");
-        System.out.println(" ");
-    }
-    if (n<0){
-        System.out.println(n+" - Negative");
-        System.out.println(" ");
-    }
-    if(n==0){
-        System.out.println("Zero");
-        System.out.println(" ");
-    }
-
-    //Voting Eligibility
-    System.out.println("---VOTING ELIGIBILITY---");
-    int age=20;
-    System.out.println("Age : "+age);
-    if (age>=18){
-        System.out.println("Eligible To Vote");
-        System.out.println(" ");
-    }
-    if(age<18){
-        System.out.println("Not Eligible To Vote");
-        System.out.println(" ");
-    }
-
-    //marks>90
-    System.out.println("---CHECK MARKS > 90---");
-    int marks=67;
-    System.out.println("Mark : "+marks);
-    if(marks>90){
-        System.out.println("Marks greater than 90");
-        System.out.println(" ");
-    }
-    if(marks<90){
-        System.out.println("Marks less than 90");
-        System.out.println(" ");
-    }
-
-    //salary>50000
-    System.out.println("---CHECK SALARY > 50,000---");
-    double salary=68000;
-    System.out.println("Salary : "+salary);
-    if(salary>50000){
-        System.out.println("Salary Greater than 50k");
-        System.out.println(" ");
-    }
-    if(salary<50000){
-        System.out.println("Salary less than 50k");
-        System.out.println(" ");
-    }
-
-    //temperature > 40C
-    System.out.println("---CHECK TEMPERATURE > 40C---");
-    double temp=67;
-    System.out.println("Temperature : "+temp+" C");
-    if(temp>40){
-        System.out.println("Temperature greater than 40C");
-        System.out.println(" ");
-    }
-    if(temp<40){
-        System.out.println("Temperature less than 40C");
-        System.out.println(" ");
-    }
-
-    //if....else statements
-    System.out.println("---CHECK ODD OR EVEN---");
-    int num=65;
-    System.out.println("Number : "+num);
-    if(num%2==0){
-        System.out.println("Even Number");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Odd Number");
-        System.out.println(" ");
-    }
-
-    //pass or fail
-    System.out.println("---CHECK PASS OR FAIL---");
-    int Mark=65;
-    System.out.println("Marks : "+Mark);
-    if(Mark>=35){
-        System.out.println("Pass");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Fail");
-        System.out.println(" ");
-    }
-
-    //max of two nums
-    System.out.println("---MAX OF TWO NUMBERS---");
-    int num1=65,num2=54;
-    System.out.println("Number 1 : "+num1);
-    System.out.println("Number 2 : "+num2);
-    if(num1>num2){
-        System.out.println("Number 1 is Maximum");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Number 2 is Maximum");
-        System.out.println(" ");
-    }
-
-    //Upper or Lower case
-    System.out.println("---CHECK UPPER OR LOWER ---");
-    char s = 'A';
-    System.out.println("Letter : "+s);
-    if(Character.isUpperCase(s)){
-        System.out.println("Upper case");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Lower Case");
-        System.out.println(" ");
-    }
-
-    //leapyer or not
-    System.out.println("---CHECK LEAP YEAR---");
-    int _Year=2008;
-    System.out.println("Year : "+_Year);
-    if((_Year%4==0 && _Year%100!=0)||_Year%400==0){
-        System.out.println(" Leap Year ");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Not a Leap Year");
-        System.out.println(" ");
-    }
-
-    //if....else if statements
-    //salary-high,medium,low
-    System.out.println("---CHECK SALARY- HIGH , MEDIUM , LOW---");
-    double Salary=100000;
-    System.out.println("Salary : "+Salary);
-    if(Salary>=70000){
-        System.out.println(" HIGH ");
-        System.out.println(" ");
-    }
-    else if (Salary>=30000){
-        System.out.println(" MEDIUM ");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println(" LOW ");
-        System.out.println(" ");
-    }
-
-    //Largest of 3 numbers
-    
-    System.out.println("---LARGEST OF 3 NUMBER---");
-    int num_1=17,num_2=24,num_3=99;
-    System.out.println("A : "+num_1);
-    System.out.println("B : "+num_2);
-    System.out.println("C : "+num_3);
-    System.out.println(" ");
-    if(num_1>num_2 && num_1>num_3){
-        System.out.println("A Biggest");
-        System.out.println(" ");
-    }
-    else if (num_2>num_1 && num_2>num_3){
-        System.out.println("B Biggest");
-        System.out.println(" ");
-    }
-    else if(num_3>num_1 && num_3>num_2){
-        System.out.println("C Biggest");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Values are Same");
-        System.out.println(" ");
-    }
-    
-
-    //income-Tax
-    System.out.println("---TAX CRITERIA---");
-    double annualIncome=1700000;
-    System.out.println("Annual income : "+annualIncome);
-    if(annualIncome<=400000){
-        System.out.println("No Tax");
-        System.out.println(" ");
-    }
-    else if (annualIncome<=800000){
-        System.out.println(" 5% Tax "+(annualIncome*0.05));
-        System.out.println(" ");
-    }
-    else if (annualIncome<=1200000){
-        System.out.println(" 10% Tax "+(annualIncome*(0.10)));
-        System.out.println(" ");
-    }
-    else if (annualIncome<=1600000){
-        System.out.println(" 15% Tax "+(annualIncome*(0.15)));
-        System.out.println(" ");
-    }
-    else if (annualIncome<=2000000){
-        System.out.println(" 20% Tax "+(annualIncome*(0.20)));
-        System.out.println(" ");
-    }
-    else if (annualIncome<=2400000){
-        System.out.println("25% Tax "+(annualIncome*(0.25)));
-        System.out.println(" ");
-    }
-    else{
-        System.out.println(" 30% Tax "+(annualIncome*(0.30)));
-        System.out.println(" ");
-    } 
-
-    //ticket price based on age category 
-    
-    System.out.println("---TICKET PRICE---");
-    int Age=18;
-    System.out.println("Age : "+Age);
-    if(Age<=5){
-        System.out.println("Free");
-        System.out.println(" ");
-    }
-    else if (Age<=12){
-        System.out.println("Price : 100 ");
-        System.out.println(" ");
-    }
-    else if (Age<=18){
-        System.out.println("Price : 150 ");
-        System.out.println(" ");
-    }
-    else if (Age<=59){
-        System.out.println("Price : 200 ");
-        System.out.println(" ");
-    }
-    else{
-        System.out.println("Price : 120 (Senior Citizen Discount)");
-        System.out.println(" ");
-
-    }
-
-    //nested if...else
-    //college admission criteria
-    System.out.println("---COLLEGE CRITERIA---");
-    int Student_Age =22;
-    int Student_marks=88;
-    System.out.println("Age : "+Student_Age);
-    System.out.println("Marks Secured : "+Student_marks);
-    if(Student_Age>=18){
-        if(Student_marks>=60){
-            System.out.println("Eligible ");
-            System.out.println(" ");
-        }
-        else{
-            System.out.println("Not Eligible");
-            System.out.println(" ");
-        }
-    }
-    else{
-        System.out.println("Not Eligible");
-        System.out.println(" ");
-    }
-
-
-    //loan eligibility
-    System.out.println("---LOAN ELIGIBILITY---");
-    double income = 100000;
-    double credit = 300;
-
-    System.out.println("Salary : "+income);
-    System.out.println("Credit Score : "+credit);
-
-    if(income>=30000){
-        if(credit<650){
-            System.out.println("Not Eligible");
-            System.out.println(" ");
-        }
-        else if(credit<=749){
-            System.out.println("Eligible for Basic Loan ");
-            System.out.println(" ");
-        }
-        else if(credit<=849){
-            System.out.println("Eligible for Standard Loan ");
-            System.out.println(" ");
-        }
-        else{
-            System.out.println("Eligible for Premium Loan ");
-            System.out.println(" ");
-        }
-    }
-    else{
-        System.out.println("Not Eligile");
-    }
-
-    //Ternary operator 
-    //Largest of two nums 
-    System.out.println("---LARGEST OF TWO NUMBERS---");
-    int a=12,b=67;
-    System.out.println("A : "+a);
-    System.out.println("B : "+b);
-    String Check=(a>b)?"A is Greater ":"B is Greatest";//ternary operator
-    System.out.println(Check); 
-    System.out.println(" ");
-
-    //even or odd
-    System.out.println("---EVEN OR ODD---");
-    int A=12;
-    System.out.println("Number : "+A);
-    String CH=(A%2==0)?"Even Number":"Odd Number";
-    System.out.println(CH); 
-    System.out.println(" ");
-
-    }
-
-    }
-
-
-
-
-
-
-
-    class Day2_NewValues{
-    public static void main (String args []){
-
-        // 1. CELSIUS TO FAHRENHEIT
-        System.out.println("----CELSIUS TO FAHRENHEIT----");
-        double celsius = 35.5;  // Vera value
-        double fahrenheit = (celsius * 9.0 / 5.0) + 32; // 9.0/5.0 podanum, illana 1 varum
-        System.out.println("Celsius : " + celsius + " C");
-        System.out.println("Fahrenheit : " + fahrenheit + " F");
-        System.out.println(" ");
-
-        // 2. KILOMETER TO MILES
-        System.out.println("---KILOMETER TO MILES---");
-        double kilometer = 100.0; // Vera value
-        double miles = kilometer * 0.621;
-        System.out.println("Distance in Kilometers : " + kilometer + " Km");
-        System.out.println("Distance in Miles : " + miles + " Miles");
-        System.out.println(" ");
-
-        // 3. MILES TO KILOMETER
-        System.out.println("---MILES TO KILOMETER---");
-        double Miles = 50.0; // Vera value
-        double kiloMeter = Miles * 1.609;
-        System.out.println("Distance in Miles : " + Miles + " Miles");
-        System.out.println("Distance in Kilometers : " + kiloMeter + " Km");
-        System.out.println(" ");
-
-        // 4. SPEED, DISTANCE, TIME CALCULATOR
-        System.out.println("1.TIME CALCULATOR");
-        System.out.println("2.DISTANCE CALCULATOR"); 
-        System.out.println("3.SPEED CALCULATOR");
-        String ch = "2"; // Vera choice try pannu 1,2,3
-        System.out.println("Choice : " + ch);
+        //8-------------------> Miles to kilometer:
+       // double miles = 10.0; 
+        //(Formula) :
+       // double kilometers = miles * 1.609344;
         
-        switch(ch){
-            case "1": // Time = Distance / Speed
-                double Speed = 25;
-                double Distance = 100;
-                System.out.println("Speed : " + Speed);
-                System.out.println("Distance : " + Distance);
-                double Time = Distance / Speed;
-                System.out.println("Time : " + Time + " s");
-                break;
-
-            case "2": // Distance = Speed * Time
-                double speed = 15;
-                double time = 4;
-                System.out.println("Speed : " + speed);
-                System.out.println("Time : " + time);
-                double distance = speed * time;
-                System.out.println("Distance : " + distance + " m");
-                break;
-
-            case "3": // Speed = Distance / Time
-                double _Distance = 200;
-                double _Time = 10;
-                System.out.println("Distance : " + _Distance);
-                System.out.println("Time : " + _Time);
-                double _Speed = _Distance / _Time;
-                System.out.println("Speed : " + _Speed + " m/s");
-                break;
-        }
-        System.out.println(" ");
-
-        // 5. SALARY CALCULATOR
-        System.out.println("---SALARY CALCULATOR---");
-        int year = 2024; // Leap year
-        double annual_income = 1200000; // Vera value
-        double monthly_income = annual_income / 12;
-        double daily_income, hourly_income;
+       // System.out.println("--- MILES TO KILOMETER ---");
+       // System.out.println("Miles : " + miles + " miles");
+       // System.out.println("Kilometers : " + kilometers + " km");
         
-        if((year%4==0 && year%100!=0) || year%400==0){ // Leap year check
-            daily_income = annual_income / 366;
-            hourly_income = annual_income / (366*24);
-        }
-        else{
-            daily_income = annual_income / 365;
-            hourly_income = annual_income / (365*24);
-        }
-        System.out.println("Annual Income : " + annual_income);
-        System.out.println("Monthly Income : " + monthly_income);
-        System.out.println("Daily Income : " + daily_income);
-        System.out.println("Hourly Income : " + hourly_income);
-        System.out.println(" ");
-
-        // 6. SIMPLE INTEREST - Formula la /100 add pannanum
-        System.out.println("---SIMPLE INTEREST---");
-        int P = 50000; // Principle
-        double R = 8.5; // Rate
-        int T = 3; // Time in years
+    //}
+//}
+//9------------------>time calculator:
+       // int seconds = 5000;  
+       // int hours = seconds / 3600;           
+       // int minutes = (seconds % 3600) / 60; 
+       // int sec = seconds % 60;               
         
-        System.out.println("Principle : " + P);
-        System.out.println("Rate : " + R + "%");
-        System.out.println("Time : " + T + " years");
+       // System.out.println(seconds + " seconds = " + hours + "h " + minutes + "m " + sec + "s");
+    //}
+//}
+
+        //10------------------>distance calculator:
+       // double speed = 60;   
+       // double time = 2.5;   
+       // double distance = speed * time;  // Formula: D = S x T
         
-        double Simple_Interest = (P * R * T) / 100.0; // /100 must
-        System.out.println("Simple Interest : " + Simple_Interest);
-        System.out.println(" ");
+       // System.out.println("distance calculator");
+       // System.out.println("Speed : " + speed + " km/h");
+       // System.out.println("Time : " + time + " hours");
+       // System.out.println("Distance : " + distance + " km");
+   // }
+//}
 
-        // 7. AREA CALCULATOR
-        System.out.println("---AREA---");
-        System.out.println("1.Square  2.Rectangle 3.Circle  4.Triangle");
-        String Ch = "4"; // Vera choice
-        System.out.println("Choice Entered : " + Ch);
+        //11------------------->speed calculator:
+       // double distance = 150;  
+       // double time = 2.5;      
+       // double speed = distance / time;  
         
-        switch(Ch){
-            case "1":
-                int side = 15;
-                double square_area = side * side;
-                System.out.println("Area of Square : " + square_area);
-                break;
-            case "2":
-                int length = 20, breadth = 10;
-                double rectangle_area = length * breadth;
-                System.out.println("Area of Rectangle : " + rectangle_area);
-                break;
-            case "3":
-                double radius = 7.5;
-                double circle_area = 3.14 * radius * radius;
-                System.out.println("Area of Circle : " + circle_area);
-                break;
-            case "4":
-                int height = 16, base = 10;
-                double triangle_area = 0.5 * base * height;
-                System.out.println("Area of Triangle : " + triangle_area);
-                break;
-        }
-        System.out.println(" ");
-
-        // 8. VOWEL CHECK
-        System.out.println("---VOWELS CHECK---");
-        char txt = 'E'; // Capital vowel
-        System.out.println("Letter : " + txt);
-        if(txt=='a'||txt=='e'||txt=='i'||txt=='o'||txt=='u'){
-            System.out.println("Vowel - Small letter");
-        }
-        else if(txt=='A'||txt=='E'||txt=='I'||txt=='O'||txt=='U'){
-            System.out.println("Vowel - Capital letter");
-        }
-        else{
-            System.out.println("Consonant");
-        }
-        System.out.println(" ");
-
-        // 9. GRADING SYSTEM
-        System.out.println("---GRADING SYSTEM---");
-        int mark = 76; // Vera mark
-        System.out.println("Marks secured : " + mark);
-        if(mark>=90) System.out.println("Grade A");
-        else if (mark>=80) System.out.println("Grade B");
-        else if (mark>=70) System.out.println("Grade C");
-        else if (mark>=50) System.out.println("Grade D");
-        else System.out.println("Fail");
-        System.out.println(" ");
-
-        // 10. ODD OR EVEN - Ternary operator
-        System.out.println("---EVEN OR ODD---");
-        int num = 43; // Vera number
-        System.out.println("Number : " + num);
-        String result = (num % 2 == 0) ? "Even Number" : "Odd Number";
-        System.out.println(result); 
-        System.out.println(" ");
-
-    }
-}
+       // System.out.println(" speed calculator");
+       // System.out.println("Distance : " + distance + " km");
+       // System.out.println("Time : " + time + " hours");
+       // System.out.println("Speed : " + speed + " km/h");
+    //}
+//}
+//12------------------------->vowel check:
+        
+       // char ch = 'E';  // nee vera letter try pannu
+        
+       // if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
+        //   ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+            
+          //  System.out.println(ch + " is a VOWEL");
+       // }
+       // else{
+         //   System.out.println(ch + " is a CONSONANT");
+      //  }
+    //}
+//}
