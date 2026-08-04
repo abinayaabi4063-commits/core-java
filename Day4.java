@@ -1,4 +1,4 @@
- import java.util.calendar;
+ import java.util.Calendar;
  class Day4 {
     public static void main(String args[]) {
         Calendar cal = Calendar.getInstance();
