@@ -1,6 +1,6 @@
- import java.util.Calendar;
- class Day4 {
-    public static void main(String args[]) {
+// import java.util.Calendar;
+ //class Day4 {
+ //   public static void main(String args[]) {
  //Calendar cal = Calendar.getInstance();
 //1-------------------CALANDAR ADD,MINUS--------------------->
        // cal.set(2004, Calendar.NOVEMBER, 14);
@@ -38,30 +38,28 @@
 
 
 //4-------------------------DURATION------------------------------>
-        Calendar t1 = Calendar.getInstance();
-        t1.set(Calendar.HOUR_OF_DAY, 10);
-        t1.set(Calendar.MINUTE, 30);
-        t1.set(Calendar.SECOND, 0);
+       // Calendar t1 = Calendar.getInstance();
+       // t1.set(Calendar.HOUR_OF_DAY, 10);
+       // t1.set(Calendar.MINUTE, 30);
+       // t1.set(Calendar.SECOND, 0);
         
         
-        Calendar t2 = Calendar.getInstance();
-        t2.set(Calendar.HOUR_OF_DAY, 12);
-        t2.set(Calendar.MINUTE, 45);
-        t2.set(Calendar.SECOND, 0);
-        long diffInMilli = t2.getTimeInMillis() - t1.getTimeInMillis();
+       // Calendar t2 = Calendar.getInstance();
+       // t2.set(Calendar.HOUR_OF_DAY, 12);
+       // t2.set(Calendar.MINUTE, 45);
+       // t2.set(Calendar.SECOND, 0);
+       // long diffInMilli = t2.getTimeInMillis() - t1.getTimeInMillis();
 
         //5----- MILLISECONS CONVERT TO HOURSE AND MINUTE---------->
 
 
-        long diffInMinutes = diffInMilli / (1000 * 60);
-        long diffInHours = diffInMilli / (1000 * 60 * 60);
-        System.out.println("Start Time:10.30 ");
-        System.out.println("End Time:12.45 ");
-        System.out.println("");
-        System.out.println("Difference : " + diffInHours + " hours");
-        System.out.println("Difference : " + diffInMinutes + " minutes");
-    }
-}
+      //  long diffInMinutes = diffInMilli / (1000 * 60);
+       // long diffInHours = diffInMilli / (1000 * 60 * 60);
+       // System.out.println("Start Time:10.30 ");
+       // System.out.println("End Time:12.45 ");
+       // System.out.println("");
+       // System.out.println("Difference : " + diffInHours + " hours");
+       // System.out.println("Difference : " + diffInMinutes + " minutes");
    // }
 //}
         
