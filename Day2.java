@@ -3,7 +3,7 @@
 
    //1-------------->college admission eligibility: ( Nested if...else)
        // int age = 18;         
-       // int marks = 60;      
+       // int marks = 60;       
        // System.out.println("college admission eligibility");
        // System.out.println("Age : " + age);
        // System.out.println("Marks : " + marks);
@@ -20,8 +20,8 @@
         //    }
         //}
        // else{ 
-       //     System.out.println("Age Condition : Fail");
-//System.out.println("Result : Not Eligible");
+        //     System.out.println("Age Condition : Fail");
+       //System.out.println("Result : Not Eligible");
       //  }
    // }
 //}
