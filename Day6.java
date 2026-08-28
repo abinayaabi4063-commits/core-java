@@ -1,6 +1,6 @@
  class Day6{
     public static void main(String args []){
-        StringBuffer name= new StringBuffer("Saloni");
+        StringBuffer name= new StringBuffer("abinaya");
         System.out.println("Name : "+name);
         //Length
         System.out.println("Name Length : "+name.length());
@@ -11,7 +11,7 @@
         name.insert(6," 18");
         System.out.println("Insert Age after Name : "+name);
         //Replace
-        name.replace(0,6,"Tanav");
+        name.replace(0,6,"saran");
         System.out.println("Replace Name : "+name);
         //Delete
         name.delete(20,25);
