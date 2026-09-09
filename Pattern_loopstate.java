@@ -1,4 +1,4 @@
-// class Day3 {
+// class Pattern_loopstate{
   // public static void main(String[] args) {
 
         //1-----------------FOR LOOP------------------->
