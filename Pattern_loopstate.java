@@ -5,9 +5,9 @@ class Pattern_loopstate{
         System.out.println("");
         for(int i = 1; i <= 5; i++) {
            System.out.println("Number : " + i);
-        }
-    }
-}
+       // }
+    //}
+//}
 
 
 //----------------EXAMPLE ------------------------------>
@@ -81,3 +81,13 @@ class Pattern_loopstate{
       // }
    // }
 //}
+
+//--------------------------PATTERN----------------------------->
+        for (int i = 1; i <= 3; i++) {       
+            for (int j = 1; j <= 3; j++) {  
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
