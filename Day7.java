@@ -1,6 +1,6 @@
 public class Day7{
     public static void greet(){
-    System.out.println("Hello , World!");
+    System.out.println("Hello Dude");
     }
     public static void dispname(){
         System.out.println("abinaya");
@@ -85,7 +85,7 @@ public class Day7{
         return square;
     }
     public static String getName(){
-        String name="Saloni";
+        String name="abinaya";
         return name;
     }
     public static int getLargest(){

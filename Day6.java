@@ -112,7 +112,7 @@
         System.out.println("Index of 'i' : "+sentence.indexOf("i"));
 
         //lastIndexOf()
-        System.out.println("Last Index Of 'a' : "+sentence.lastIndexOf("a"));
+        System.out.println("Last Index Of 'a' : "+sentence.lastIndexOf("a"))
 
         //setLength
         sentence.setLength(5);
@@ -120,6 +120,7 @@
 
         //tostring
         String a_1=sentence.toString();
+  
         System.out.println("String : "+a_1);
     }
  }

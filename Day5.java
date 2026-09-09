@@ -9,7 +9,7 @@
        // System.out.println("Rhombus Area : " + areaRhombus);
         
 
-        // 2. Pentagon = (5 * side * apothem) / 2
+        // 2. Pentagon = (5 * side *apotham) / 2
        // int sideP = 5;
        // float apothem = 3.4f;
        // float areaPentagon = (5 * sideP * apothem) / 2;
