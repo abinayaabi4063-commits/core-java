@@ -5,7 +5,7 @@ class Pattern_loopstate{
         System.out.println("");
         for(int i = 1; i <= 5; i++) {
            System.out.println("Number : " + i);
-       // }
+        }
     //}
 //}
 
@@ -82,12 +82,35 @@ class Pattern_loopstate{
    // }
 //}
 
-//--------------------------PATTERN----------------------------->
+//----------------------PATTERN(sq)----------------------------->
         for (int i = 1; i <= 3; i++) {       
             for (int j = 1; j <= 3; j++) {  
                 System.out.print("* ");
             }
             System.out.println();
+
+      //---------------------TRIANGLE--------------------------->     
+       // for (int i = 1; i <= 3; i++) {
+           // for (int j = 1; j <= i; j++) {  // i vara
+              //  System.out.print("* ");
+           // }
+           // System.out.println();
+
+         //----------------------NUMBER---------------------------> 
+       // for (int i = 1; i <= 3; i++) {
+            //for (int j = 1; j <= i; j++) {
+               // System.out.print(j + " "); // j print 
+           // }
+            //System.out.println();
+
+           //-----------------------ROW---------------------------->
+        //for (int i = 1; i <= 3; i++) {
+           // for (int j = 1; j <= i; j++) {
+               // System.out.print(i + " "); // i print 
+           // }
+           // System.out.println();
         }
     }
 }
+        
+        
