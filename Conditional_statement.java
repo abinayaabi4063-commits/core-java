@@ -1,30 +1,30 @@
-//class Conditional_statement{
-   // public static void main (String args []){
+class Conditional_statement{
+   public static void main (String args []){
 
    //1-------------->college admission eligibility: ( Nested if...else)
-       // int age = 18;         
-       // int marks = 60;       
-       // System.out.println("college admission eligibility");
-       // System.out.println("Age : " + age);
-       // System.out.println("Marks : " + marks);
-       // System.out.println(" ");
-       // if(age >= 18){ 
-       //     System.out.println("Age Condition : Pass");
-        //    if(marks >= 60){ 
-        //        System.out.println("Marks Condition : Pass");
-        //        System.out.println("Result : Eligible");
-        //    }
-        //    else{ 
-        //        System.out.println("Marks Condition : Fail");
-        //        System.out.println("Result : Not Eligible");
-        //    }
-        //}
-       // else{ 
-        //     System.out.println("Age Condition : Fail");
-       //System.out.println("Result : Not Eligible");
-      //  }
-   // }
-//}
+        int age = 18;         
+        int marks = 60;       
+        System.out.println("college admission eligibility");
+        System.out.println("Age : " + age);
+        System.out.println("Marks : " + marks);
+        System.out.println(" ");
+        if(age >= 18){ 
+            System.out.println("Age Condition : Pass");
+            if(marks >= 60){ 
+                System.out.println("Marks Condition : Pass");
+                System.out.println("Result : Eligible");
+           }
+            else{ 
+                System.out.println("Marks Condition : Fail");
+                System.out.println("Result : Not Eligible");
+            }
+        }
+        else{ 
+            System.out.println("Age Condition : Fail");
+       System.out.println("Result : Not Eligible");
+        }
+    }
+}
 
 
         //2 --------------->sdutent grade: ( if statement )
