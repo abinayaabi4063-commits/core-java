@@ -1,7 +1,7 @@
-//class Day1{
-   // public static void main(String args[]){
-        // System.out.println("Welcome dude");
-
+class Day1{
+ public static void main(String args[]){
+         System.out.println("Welcome dude");
+        
         //1---------------- Student Details :--------------------->
         // String Name ="abinaya";
         // long regNumber = 620622;
@@ -78,5 +78,5 @@
        // int j = i--; 
        // System.out.println("i = " + i);  
        // System.out.println("j = " + j);     
-   // }
-//}
+    }
+}
