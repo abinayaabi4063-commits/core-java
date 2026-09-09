@@ -2,10 +2,10 @@ class Pattern_loopstate{
   public static void main(String[] args) {
 
         //1-----------------FOR LOOP------------------->
-        System.out.println("");
-        for(int i = 1; i <= 5; i++) {
-           System.out.println("Number : " + i);
-        }
+       // System.out.println("");
+       // for(int i = 1; i <= 5; i++) {
+          // System.out.println("Number : " + i);
+       // }
     //}
 //}
 
