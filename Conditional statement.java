@@ -1,4 +1,4 @@
- //class Day1{
+//class Conditional statement{
    // public static void main (String args []){
 
    //1-------------->college admission eligibility: ( Nested if...else)
