@@ -1,4 +1,4 @@
-class Strinbuffer_builder{
+class Stringbuffer_builder{
      public static void main(String args []){
  
         // STRINGBUFFER
