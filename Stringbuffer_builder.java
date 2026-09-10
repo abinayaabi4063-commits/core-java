@@ -99,7 +99,7 @@ class Stringbuffer_builder{
         // STRINGBUILDER
 
 
-        System.out.println("\STRINGBUILDER");
+        System.out.println("STRINGBUILDER");
 
         StringBuilder builder = new StringBuilder("Java");
 
