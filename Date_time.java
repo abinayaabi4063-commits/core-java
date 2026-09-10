@@ -1,6 +1,6 @@
 import java.util.Calendar;
  class Date_time {
- /  public static void main(String args[]) {
+   public static void main(String args[]) {
  Calendar cal = Calendar.getInstance();
 //1-------------------CALANDAR ADD,MINUS--------------------->
         cal.set(2004, Calendar.NOVEMBER, 14);
