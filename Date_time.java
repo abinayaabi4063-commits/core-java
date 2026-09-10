@@ -1,11 +1,11 @@
-// import java.util.Calendar;
- //class Day4 {
- //   public static void main(String args[]) {
- //Calendar cal = Calendar.getInstance();
+import java.util.Calendar;
+ class Date_time {
+ /  public static void main(String args[]) {
+ Calendar cal = Calendar.getInstance();
 //1-------------------CALANDAR ADD,MINUS--------------------->
-       // cal.set(2004, Calendar.NOVEMBER, 14);
-       // System.out.println(" : " + cal.getTime());
-       // cal.add(Calendar.MONTH, -2);
+        cal.set(2004, Calendar.NOVEMBER, 14);
+        System.out.println(" : " + cal.getTime());
+        cal.add(Calendar.MONTH, -2);
        
        // System.out.println(" : " + cal.getTime());
        // cal.add(Calendar.DAY_OF_MONTH, 10);
@@ -60,6 +60,6 @@
        // System.out.println("");
        // System.out.println("Difference : " + diffInHours + " hours");
        // System.out.println("Difference : " + diffInMinutes + " minutes");
-   // }
-//}
+    }
+}
         
