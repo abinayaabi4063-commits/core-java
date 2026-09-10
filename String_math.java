@@ -1,4 +1,4 @@
- class Day5 {
+class String_maths {
     public static void main(String[] args) {
 
         //1----------AREA OF= RHOMBUS,PENTAGON,HEXAGON,OCTAGON,TREZOID-------> 
