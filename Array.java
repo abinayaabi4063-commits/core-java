@@ -176,7 +176,7 @@
         }
 
         // 19. Access 2D Array Element
-        System.out.println("\n19. Access 2D [1][1] = " + matrix[1][1]);
+        //System.out.println("\n19. Access 2D [1][1] = " + matrix[1][1]);
 
         // 20. Change 2D Array Element
         matrix[1][1] = 100;
