@@ -3,14 +3,14 @@ class Operators{
          System.out.println("Welcome dude");
         
         //1---------------- Student Details :--------------------->
-        // String Name ="abinaya";
-        // long regNumber = 620622;
-        // float cgpa = 7.5f;
-        // char attendence = 'P';
-        // System.out.println("Name : "+Name);
-        // System.out.println("reg Number : "+regNumber);
-        // System.out.println("CGPA : "+cgpa);
-        // System.out.println("Attendence : "+attendence);
+         String Name ="abinaya";
+         long regNumber = 620622;
+         float cgpa = 7.5f;
+         char attendence = 'P';
+         System.out.println("Name : "+Name);
+         System.out.println("reg Number : "+regNumber);
+         System.out.println("CGPA : "+cgpa);
+         System.out.println("Attendence : "+attendence);
 
 
         //2------------------ OPERATORS :--------------------------->
