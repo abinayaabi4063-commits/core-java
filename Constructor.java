@@ -55,7 +55,7 @@ public class Constructor {
         s3.display();
 
         // Default - namma onnume eluthala, Java thanave kudukum
-        Teacher t1 = new Teacher();
+       // Teacher t1 = new Teacher();
         t1.show();
     }
 }
