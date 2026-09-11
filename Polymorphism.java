@@ -40,7 +40,7 @@ public class Polymorphism {
         cal.add("Abinaya ", "Kenisha");
 
         System.out.println("\n2. Overriding (Runtime):");
-        Animal a1 = new Dog(); // Animal ah Dog maadhiri
+        Animal a1 = new Dog(); // Animal  Dog maadhiri
         a1.sound(); // Dog Barks
 
         Animal a2 = new Cat();
