@@ -172,7 +172,7 @@ class Stringbuffer_builder{
 
         // 12. indexOf()
 
-        System.out.println("Index of X : "  + builder.indexOf("X"));
+        //System.out.println("Index of X : "  + builder.indexOf("X"));
 
 
         // 13. lastIndexOf()
