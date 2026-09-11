@@ -125,7 +125,7 @@ public class InheritanceNewExample {
         System.out.println("--------------------");
 
         // 6. Hierarchical
-        Android a1 = new Android();
+        //Android a1 = new Android();
         a1.call();
         a1.androidOS();
         System.out.println();
