@@ -53,7 +53,7 @@
         } catch (ArithmeticException e) {
             System.out.println("Error");
         } finally {
-            System.out.println("Program Completed - Finally always runs");
+           // System.out.println("Program Completed - Finally always runs");
         }
     }
 }
