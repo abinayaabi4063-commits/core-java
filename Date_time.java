@@ -7,7 +7,7 @@ import java.util.Calendar;
         System.out.println(" : " + cal.getTime());
         cal.add(Calendar.MONTH, -2);
        
-       // System.out.println(" : " + cal.getTime());
+        System.out.println(" : " + cal.getTime());
        // cal.add(Calendar.DAY_OF_MONTH, 10);
        // System.out.println(" : " + cal.getTime());
 
