@@ -24,7 +24,7 @@ class Conditional_statement{
        System.out.println("Result : Not Eligible");
         }
     }
-}
+//}
 
 
         //2 --------------->sdutent grade: ( if statement )
