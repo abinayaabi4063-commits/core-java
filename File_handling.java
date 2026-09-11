@@ -61,7 +61,7 @@ import java.util.Scanner;
         // 6. Delete File
         if (file.delete()) {
             System.out.println("\n6. File Deleted Successfully");
-        } else {
+       // } else {
             System.out.println("\n6. Delete Failed");
         }
     }
