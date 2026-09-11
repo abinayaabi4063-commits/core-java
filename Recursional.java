@@ -1,19 +1,19 @@
  class Recursional {
 
     // 1. Factorial - 5! = 5*4*3*2*1 = 120
-    static int factorial(int n) {
-        if (n == 1) {
+   // static int factorial(int n) {
+       // if (n == 1) {
             return 1; // Stop point
-        }
+       // }
         return n * factorial(n - 1); // Thanney thirumba koopdu
-    }
+    //}
 
     // 2. Sum - 1+2+3+4+5 = 15
     static int sum(int n) {
         if (n == 1) {
             return 1;
         }
-        return n + sum(n - 1);
+        return n + sum(n - 1);S
     }
 
     // 3. Print Numbers 1 to 5
