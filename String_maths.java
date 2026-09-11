@@ -4,9 +4,9 @@ class String_maths {
         //1----------AREA OF= RHOMBUS,PENTAGON,HEXAGON,OCTAGON,TREZOID-------> 
                // System.out.println(" AREA ");
         // 1. Rhombus = (d1 * d2) / 2
-       // float d1 = 10, d2 = 8;
-       // float areaRhombus = (d1 * d2) / 2;
-       // System.out.println("Rhombus Area : " + areaRhombus);
+        float d1 = 10, d2 = 8;
+        float areaRhombus = (d1 * d2) / 2;
+        System.out.println("Rhombus Area : " + areaRhombus);
         
 
         // 2. Pentagon = (5 * side *apotham) / 2
