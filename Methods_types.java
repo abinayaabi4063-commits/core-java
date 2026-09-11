@@ -71,8 +71,8 @@ public class Methods_types {
     }
 
     // 10. Method Overloading - double
-    static double add(double a, double b) {
-        return a + b;
+    //static double add(double a, double b) {
+        //return a + b;
     }
 
     // 11. Method Overloading - String
