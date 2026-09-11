@@ -8,7 +8,7 @@ import java.util.Scanner;
         System.out.print("1. Enter a Number: ");
         int number = sc.nextInt();
         if (number > 0) {
-            System.out.println("Positive Number");
+            //System.out.println("Positive Number");
         } else if (number < 0) {
             System.out.println("Negative Number");
         } else {
