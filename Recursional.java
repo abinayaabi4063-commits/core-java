@@ -35,7 +35,7 @@
         System.out.println(sum(5)); // 15
         System.out.println("--------------------");
 
-        //System.out.println("3. Print 1 to 5:");
+        System.out.println("3. Print 1 to 5:");
         printNum(1);
     }
 }
