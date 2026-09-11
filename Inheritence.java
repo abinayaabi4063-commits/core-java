@@ -1,5 +1,5 @@
 // 1. SINGLE - One Parent -> One Child
-class Father {
+class Inheritence {
     void property() { System.out.println("Father Property"); }
 }
 class Son extends Father {
