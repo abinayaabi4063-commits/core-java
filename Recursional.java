@@ -5,7 +5,7 @@
        // if (n == 1) {
             return 1; // Stop point
        // }
-        return n * factorial(n - 1); // Thanney thirumba koopdu
+        return n * factorial(n - 1); // self calling
     //}
 
     // 2. Sum - 1+2+3+4+5 = 15
@@ -22,7 +22,7 @@
             return; // Stop
         }
         System.out.println(n);
-        printNum(n + 1); // Next number ku call
+        printNum(n + 1); // Next  call
     }
 
     public static void main(String[] args) {
@@ -38,4 +38,4 @@
         System.out.println("3. Print 1 to 5:");
         printNum(1);
     }
-}
+}\
